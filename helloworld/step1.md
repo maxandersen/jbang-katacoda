@@ -8,5 +8,4 @@ To begin we need `jbang` installed and this environment it is the easiests with 
 curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 sdk install jbang
-```
-{{execute}}
+```{{execute}}
