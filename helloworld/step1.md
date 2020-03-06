@@ -1,13 +1,12 @@
-Install SDKMan
+# Hello World with j'bang
 
-To install SDMan run this `curl -s "https://get.sdkman.io" | bash`{{execute}}
+In this small course you'll create a hello world app with jbang.
 
-Once that has completed you to make `sdk` available you run:
+To begin we need `jbang` installed and this environment it is the easiests with sdkman.io.
 
-`source "$HOME/.sdkman/bin/sdkman-init.sh"`{{execute}}
-
-And then you can install `jbang`
-
-`sdk install jbang`{{execute}}
-
-
+```
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install jbang
+```
+{{execute}}
